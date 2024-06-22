@@ -85,11 +85,11 @@ UI Interactions: Tests various UI interactions to ensure the interface behaves c
 
 **Contributing**
 
-1.Fork the repository.
-2.Create a new branch: git checkout -b my-branch-name.
-3.Make your changes and commit them: git commit -m 'Add some feature'.
-4.Push to the branch: git push origin my-branch-name.
-5.Submit a pull request.
+**1.Fork the repository.**
+**2.Create a new branch: git checkout -b my-branch-name.**
+**3.Make your changes and commit them: git commit -m 'Add some feature'.**
+**4.Push to the branch: git push origin my-branch-name.**
+**5.Submit a pull request.**
 
 **License**
 
