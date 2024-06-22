@@ -62,37 +62,23 @@ UI Interactions: Tests various UI interactions to ensure the interface behaves c
 
 **Project Structure**
 
-README.md
-package.json
-electron-react-sqlite-todo/
-├── src/
-│   ├── db.js
-│   └── components/
-├── test/
-│   ├── unit/
-│   │   └── db.test.js
-│   └── e2e/
-│       └── app.e2e.js
-├── node_modules/
-├── images/
-│   └── app-screenshot.png
-└── LICENSE
+# Project Structure
 
-1.README.md: The main documentation file for the project.
-2.package.json: Configuration file for npm dependencies and scripts.
-3.electron-react-sqlite-todo/: Root directory of your project.
- (i)src/: Contains the source code of the Electron application.
-   -b.js: File containing SQLite database initialization and query functions.
-   -components/: Directory for React components used in the application.
- (ii)test/: Contains all test files for the project.
-   -unit/: Directory for unit tests.
-     -db.test.js: Unit tests specifically for the database functions.
-   -e2e/: Directory for end-to-end (E2E) tests.
-     -app.e2e.js: E2E tests for testing the Electron app's functionality.
- (iii)node_modules/: Directory where npm installs dependencies.
- (iv)images/: Directory for project-related images, such as screenshots.
-   -app-screenshot.png: An example image file.
- (v)LICENSE: File containing details about the licensing terms of the project.
+- **README.md**: The main documentation file for the project.
+- **package.json**: Configuration file for npm dependencies and scripts.
+- **electron-react-sqlite-todo/**
+  - **src/**
+    - **db.js**: Contains SQLite database initialization and query functions.
+    - **components/**: Directory for React components used in the application.
+  - **test/**
+    - **unit/**
+      - **db.test.js**: Unit tests specifically for the database functions.
+    - **e2e/**
+      - **app.e2e.js**: End-to-end (E2E) tests for the Electron app's functionality.
+  - **node_modules/**: Directory where npm installs dependencies.
+  - **images/**
+    - **app-screenshot.png**: Example image file related to the project.
+  - **LICENSE**: File containing details about the licensing terms of the project.
 
 
 
